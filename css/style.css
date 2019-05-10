@@ -1,0 +1,55 @@
+.main {
+    background-image: linear-gradient(360deg, #6f695f6b, #5241418c), url(../images/ruvim-noga.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.social {
+    background-color: #e14eca;
+    color: white;
+    font-size: 20px;
+
+}
+
+.social:hover {
+    box-shadow: 0px 3px 8px 0px #191c1fed;
+}
+
+
+
+.card {
+    background: none !important;
+    border: none !important;
+}
+
+.card-title {
+    color: #ba54f5;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.card-title:hover {
+    color: #e14eca;
+
+}
+
+.card-text {
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.categories {
+    color: #e14eca;
+}
