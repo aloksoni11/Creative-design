@@ -11,6 +11,12 @@
 
 }
 
+.menu {
+    text-decoration: none !important;
+    color: white;
+    font-size: 16px;
+}
+
 li {
     padding: 10px;
     font-size: 20px;
@@ -25,6 +31,7 @@ li {
 
 .social:hover {
     box-shadow: 0px 3px 8px 0px #191c1fed;
+    transform: translateY(-1px);
 }
 
 
@@ -82,6 +89,7 @@ li {
     height: 430px;
     position: relative;
     border-radius: 5px;
+
 }
 
 .sty-4 {
@@ -125,3 +133,80 @@ li {
     left: 10px;
 
 }
+
+.card-img {
+    background-image: linear-gradient(310deg, #efdcdc47, #343532c2), url(../images/mike.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.card-img2 {
+    background-image: linear-gradient(310deg, #efdcdc47, #343532c2), url(../images/christian.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.card-img3 {
+    background-image: linear-gradient(310deg, #efdcdc47, #343532c2), url(../images/johana.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.card-au {
+    box-shadow: 1px -1px 8px 5px #293a67;
+}
+
+.author::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 35px;
+    background-color: #e14eca;
+    margin: auto;
+    top: -10px;
+    right: 15px;
+}
+
+.btn-footer {
+    height: 80px;
+    width: 154px;
+    align-content: center;
+    font-size: 28px;
+
+}
+
+.btn-twitter {
+    color: #3ea1ec;
+    border-color: #3ea1ec;
+}
+
+.btn-facebook {
+    color: #0732b5;
+    border-color: #0732b5;
+}
+
+.btn-gogle {
+    color: #d73925;
+    border-color: #d73925;
+}
+
+.btn-drible {
+    border-color: #ed679b;
+    color: #ed679b;
+}
+
+.btn-ytb {
+    border-color: #d73925;
+    color: #d73925;
+
+}
+
+.btn-inst {
+    border-color: #1667a3;
+    color: #1667a3;
+
+}
+
