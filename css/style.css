@@ -37,7 +37,8 @@ li {
 .card-title {
     color: #ba54f5;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
+
 
 }
 
@@ -48,6 +49,8 @@ li {
 
 .card-text {
     color: hsla(0, 0%, 100%, .6);
+    line-height: 22px;
+    font-size: 14px;
 }
 
 .categories {
@@ -61,4 +64,64 @@ li {
     right: 0;
     top: -60px;
     z-index: 100;
+}
+
+.container-fluid {
+    background-color: #344675;
+}
+
+.icon2 {
+    width: 50px;
+}
+
+.sty-1 {
+    background-image: url(../images/stry1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 430px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.sty-4 {
+    background-image: url(../images/stry2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.sty-2 {
+    background-image: url(../images/stry3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.sty-3 {
+    background-image: url(../images/srty4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.stry-text {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+
 }
