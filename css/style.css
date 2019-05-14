@@ -1,20 +1,26 @@
 .main {
-    background-image: linear-gradient(360deg, #6f695f6b, #5241418c), url(../images/ruvim-noga.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ruvim-noga.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 * {
-
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-
 }
 
 .menu {
     text-decoration: none !important;
     color: white;
-    font-size: 16px;
+    font-size: .875rem;
+}
+
+.btn-str {
+    background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
+}
+
+.btn-str:hover {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
 }
 
 li {
@@ -25,33 +31,28 @@ li {
 .social {
     background-color: #e14eca;
     color: white;
-    font-size: 20px;
-
+    font-size: 1em;
 }
 
 .social:hover {
-    box-shadow: 0px 3px 8px 0px #191c1fed;
-    transform: translateY(-1px);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transform: translateY(0.5px);
 }
-
-
 
 .card {
     background: none !important;
     border: none !important;
+    border-radius: 7px !important;
 }
 
 .card-title {
     color: #ba54f5;
     font-weight: 400;
-    font-size: 19px;
-
-
+    font-size: 1.0625rem;
 }
 
 .card-title:hover {
     color: #e14eca;
-
 }
 
 .card-text {
@@ -60,21 +61,27 @@ li {
     font-size: 14px;
 }
 
+.tim-ic {
+    color: #525f7f;
+    font-size: 14px;
+}
+
+.profile-ic {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
 .categories {
     color: #e14eca;
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 .card-container {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: -60px;
-    z-index: 100;
+    transform: translateY(-50px);
 }
 
 .container-fluid {
-    background-color: #344675;
+    background-color: #171941;
 }
 
 .icon2 {
@@ -89,7 +96,6 @@ li {
     height: 430px;
     position: relative;
     border-radius: 5px;
-
 }
 
 .sty-4 {
@@ -100,7 +106,6 @@ li {
     height: 430px;
     border-radius: 5px;
     position: relative;
-
 }
 
 .sty-2 {
@@ -111,8 +116,6 @@ li {
     height: 430px;
     border-radius: 5px;
     position: relative;
-
-
 }
 
 .sty-3 {
@@ -123,15 +126,12 @@ li {
     height: 430px;
     border-radius: 5px;
     position: relative;
-
-
 }
 
 .stry-text {
     position: absolute;
     bottom: 5px;
     left: 10px;
-
 }
 
 .card-img {
@@ -171,11 +171,19 @@ li {
 }
 
 .btn-footer {
-    height: 80px;
-    width: 154px;
     align-content: center;
     font-size: 28px;
+    padding: 20px 55px;
+}
 
+.btn-footer::after {
+    content: "";
+    position: absolute;
+    height: 84px;
+    width: 1px;
+    background-color: #525f7f;
+    right: 8px;
+    top: 0;
 }
 
 .btn-twitter {
@@ -201,12 +209,52 @@ li {
 .btn-ytb {
     border-color: #d73925;
     color: #d73925;
-
 }
 
 .btn-inst {
     border-color: #1667a3;
     color: #1667a3;
-
 }
 
+.card-raised {
+    background-color: rgb(82, 95, 127);
+    box-shadow: 0px -1px 9px 0px black;
+}
+
+.subcr:hover {
+    transform: translateY(-2px);
+}
+
+.bg-main {
+    background-color: rgb(225, 78, 202);
+}
+
+.ft-link {
+    display: table-row;
+    font-size: 13px;
+    color: white;
+    line-height: 40px;
+}
+
+.ft-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 23px !important;
+}
+
+.btn-ft {
+    color: white;
+    padding: 8px;
+    border: 1px solid white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
