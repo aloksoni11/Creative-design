@@ -25,7 +25,7 @@
 
 li {
     padding: 10px;
-    font-size: 20px;
+    /*    font-size: 15px;*/
 }
 
 .social {
@@ -42,7 +42,13 @@ li {
 .card {
     background: none !important;
     border: none !important;
+
+}
+
+.raise-img {
     border-radius: 7px !important;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+    height: 380px;
 }
 
 .card-title {
@@ -64,6 +70,22 @@ li {
 .tim-ic {
     color: #525f7f;
     font-size: 14px;
+}
+
+.blog {
+    padding-top: 70px;
+}
+
+.blog-h1 {
+    font-weight: 600;
+    font-size: 33px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.T-card {
+    font-size: 23px;
+    font-weight: 300;
+    color: #e14eca;
 }
 
 .profile-ic {
@@ -139,12 +161,15 @@ li {
     background-size: cover;
     background-position: center;
     height: 350px;
+    border-radius: 7px;
 }
 
 .card-img2 {
     background-image: linear-gradient(310deg, #efdcdc47, #343532c2), url(../images/christian.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 7px;
+
     height: 350px;
 }
 
@@ -153,10 +178,12 @@ li {
     background-size: cover;
     background-position: center;
     height: 350px;
+    border-radius: 7px;
+
 }
 
 .card-au {
-    box-shadow: 1px -1px 8px 5px #293a67;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .1);
 }
 
 .author::after {
@@ -173,7 +200,8 @@ li {
 .btn-footer {
     align-content: center;
     font-size: 28px;
-    padding: 20px 55px;
+    padding: 20px 60px;
+    border-radius: .4285rem;
 }
 
 .btn-footer::after {
@@ -181,8 +209,8 @@ li {
     position: absolute;
     height: 84px;
     width: 1px;
-    background-color: #525f7f;
-    right: 8px;
+    background-color:rgba( 131, 158, 195, 0.3);
+    right: 0px;
     top: 0;
 }
 
@@ -225,6 +253,22 @@ li {
     transform: translateY(-2px);
 }
 
+.news {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    line-height: 24.65px;
+    font-weight: 600;
+
+
+}
+
+.news-text {
+    color: rgb(154, 154, 154);
+    font-size: 15.96px;
+    line-height: 23.94px;
+    font-weight: 300;
+}
+
 .bg-main {
     background-color: rgb(225, 78, 202);
 }
@@ -257,4 +301,11 @@ a {
 
 a:hover {
     color: white;
+}
+
+.trend {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 32px;
 }
