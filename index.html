@@ -15,32 +15,23 @@
 
 <body class="h-100">
     <section class="main">
-        <div class="container ">
-            <div class="navbar px-0 pt-4">
+        <div class="navbar px-5 py-2 position-fixed w-100 bg-prima" style="z-index: 5;">
+            <div class="nav-item">
                 <p class="text-light"><b>BLK</b>• Design System PRO</p>
+            </div>
+            <div class="nav-item ">
                 <ul class="text-white position-relative">
-                    <li class="d-inline px-3">
-                        <a href="#" class="menu dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <li class="d-inline px-3" onclick="Gstart()"> <a href="#" class="menu dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             Getting started</a>
-                        <div class="dropdown-menu dropdown-with-icons show">
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-paper pr-2"></i> Components</a>
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-bullet-list-67  pr-2"></i> Presentation Page
-                            </a>
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-book-bookmark pr-2"></i> Documentation
-                            </a>
-                        </div>
+                        <div class="dropdown-menu" id="Gstart">
+                            <a href="#" class="dropdown-item"> <i class="tim-icons icon-paper pr-2"></i> Components</a>
+                            <a href="#" class="dropdown-item"> <i class="tim-icons icon-bullet-list-67  pr-2"></i> Presentation Page </a> <a href="#" class="dropdown-item"><i class="tim-icons icon-book-bookmark pr-2"></i> Documentation</a> </div>
                     </li>
                     <li class="d-inline px-3">
-                        <a href="#" class="menu dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            <i class="tim-icons icon-paper pr-2 pb-2"></i>
-                            Section</a>
-                        <div class="dropdown-menu dropdown-with-icons show">
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-paper pr-2"></i> Components</a>
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-bullet-list-67  pr-2"></i> Presentation Page
-                            </a>
-                            <a href="#" class="dropdown-item"><i class="tim-icons icon-book-bookmark pr-2"></i> Documentation
-                            </a>
-                        </div>
+                        <a href="#" class="menu dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="tim-icons icon-paper pr-2 pb-2"></i> Section</a>
+                        <div class="dropdown-menu dropdown-with-icons"> <a href="#" class="dropdown-item"><i class="tim-icons icon-paper pr-2"></i> Components</a> <a href="#" class="dropdown-item"><i class="tim-icons icon-bullet-list-67  pr-2"></i> Presentation Page
+                            </a> <a href="#" class="dropdown-item"><i class="tim-icons icon-book-bookmark pr-2"></i> Documentation
+                            </a> </div>
                     </li>
                     <li class="d-inline px-3"> <a href="#" class="menu dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="tim-icons icon-book-bookmark pr-2 pb-2"></i>Example</a></li>
                     <li class="d-inline px-3">
@@ -48,6 +39,8 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="container pt-5 ">
             <div class="title py-4">
                 <h2 class="text-center text-light pt-5 font-weight-bolder">A Place for Entrepreneurs to Share <br>and Discover New Stories</h2>
                 <div class="icon text-center text-light"> <a href="#" class="btn rounded-pill social"><i class="fab fa-twitter"></i></a> <a href="#" class="btn rounded-pill social"><i class="fab fa-instagram"></i></a> </div>
@@ -58,7 +51,7 @@
         <div class="container card-container">
             <div class="row no-gutters">
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2 "> <img src="images/steven-roe.jpg" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent"> <img src="images/steven-roe.jpg" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Features</p>
                             <h4 class="card-title">That’s One Way To Ditch Your Passenger</h4>
@@ -69,7 +62,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2 "> <img src="images/noah-wetering.jpg" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent "> <img src="images/noah-wetering.jpg" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Animal</p>
                             <h4 class="card-title">Shark Week: How to Watch It Like a Scientist</h4>
@@ -80,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2 "> <img src="images/mark-harrison.jpg" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent "> <img src="images/mark-harrison.jpg" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Cars</p>
                             <h4 class="card-title">Who's Afraid of the Self-Driving Car?</h4>
@@ -91,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2"> <img src="images/stry1.jpg" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent"> <img src="images/stry1.jpg" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Enterprise</p>
                             <h4 class="card-title">Autodesk looks to future of 3D printing with Project Escher</h4>
@@ -102,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2"> <img src="images/serge-kutuzov.jpg" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent"> <img src="images/serge-kutuzov.jpg" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Startups</p>
                             <h4 class="card-title">Lyft launching cross-platform service this week</h4>
@@ -114,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card p-2 "> <img src="images/1234.png" class="img-fluid raise-img" />
+                    <div class="card p-2 bg-transparent"> <img src="images/1234.png" class="img-fluid raise-img" />
                         <div class="px-3">
                             <p class="categories">Enterprise</p>
                             <h4 class="card-title">6 insights into the French Fashion landscape</h4>
@@ -172,7 +165,6 @@
                         <h4>Stellar Partnership</h4>
                     </div>
                 </div>
-
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-4">
                 <div class="sty-2 img-shadow">
@@ -216,24 +208,18 @@
                                     <table class="table tablesorter">
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-atom"></i>Skill</td>
-                                            <td class="text-right"> UI, UX, Creativity
-                                            </td>
+                                            <td class="text-right"> UI, UX, Creativity </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-user-run"></i>Hobbies</td>
-                                            <td class="text-right"> Photography
-                                            </td>
+                                            <td class="text-right"> Photography </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-chart-bar-32"></i> Level</td>
-                                            <td class="text-right">
-                                                • • •
-
-                                            </td>
+                                            <td class="text-right"> • • • </td>
                                         </tr>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -253,26 +239,18 @@
                                     <table class="table tablesorter">
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-atom"></i>Skill</td>
-                                            <td class="text-right"> Leadership
-
-                                            </td>
+                                            <td class="text-right"> Leadership </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-user-run"></i>Hobbies</td>
-                                            <td class="text-right"> Skiing, Chess
-
-                                            </td>
+                                            <td class="text-right"> Skiing, Chess </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-chart-bar-32"></i> Level</td>
-                                            <td class="text-right">
-                                                • • • • •
-
-                                            </td>
+                                            <td class="text-right"> • • • • • </td>
                                         </tr>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -292,25 +270,18 @@
                                     <table class="table tablesorter">
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-atom"></i>Skill</td>
-                                            <td class="text-right"> Communication
-                                            </td>
+                                            <td class="text-right"> Communication </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-user-run"></i>Hobbies</td>
-                                            <td class="text-right"> Reading, Writing
-
-                                            </td>
+                                            <td class="text-right"> Reading, Writing </td>
                                         </tr>
                                         <tr>
                                             <td class="text-left"><i class="tim-icons icon-chart-bar-32"></i> Level</td>
-                                            <td class="text-right">
-                                                • • • •
-
-                                            </td>
+                                            <td class="text-right"> • • • • </td>
                                         </tr>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -409,15 +380,7 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        function borderchange() {
-            var item = document.getElementById("bordericon");
-        
-            item.classList.toggle("border-green");
-        
-        }
-
+    <script src="js/main.js">
     </script>
 </body>
 
