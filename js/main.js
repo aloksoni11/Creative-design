@@ -5,5 +5,5 @@ function borderchange() {
 
 function Gstart() {
     var G = document.getElementById("Gstart");
-    G.classList.toggle("show");
+    G.classList.toggle("show");  
 }
